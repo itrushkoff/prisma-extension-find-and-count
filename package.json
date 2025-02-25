@@ -1,0 +1,25 @@
+{
+  "name": "prisma-extension-find-and-count",
+  "version": "0.0.1",
+  "author": "itrushkoff",
+  "description": "",
+  "keywords": [
+    "prisma",
+    "@prisma/client",
+    "extension",
+    "find-and-count",
+    "find-many-and-count",
+    "prisma-extension-find"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@prisma/client": "latest"
+  },
+  "devDependencies": {
+    "@prisma/client": "latest",
+    "prisma": "latest",
+    "typescript": "^5.7.3"
+  }
+}
