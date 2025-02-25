@@ -12,7 +12,7 @@ this.prisma.someModel.findAndCount(options)
 ```
 
 
-If you're looking for how to setup Prisma as singleton to avoid different contexts and instances of PrismaClient, here what I've got for NestJS
+If you're looking for how to setup Prisma as singleton to avoid different contexts and instances of PrismaClient, here what I've got for NestJS (thanks to @micobarac answer in https://github.com/prisma/prisma/issues/18628#issuecomment-2655850811)
 
 `folder structure`
 ```
