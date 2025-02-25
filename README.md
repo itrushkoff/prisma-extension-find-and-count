@@ -71,7 +71,7 @@ export const softDeleteExtension = Prisma.defineExtension({
 
 export const findAndCountExtension = Prisma.defineExtension((client) => {
   return client.$extends({
-    name: 'find-many-and-count-extension',
+    name: 'find-and-count-extension',
     model: {
       $allModels: {
         async findAndCount<Model, Args>(
